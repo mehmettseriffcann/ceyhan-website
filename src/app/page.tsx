@@ -203,7 +203,7 @@ export default function Home() {
         <div className="container text-center">
           <h2 className="section-title">Hizmetlerimiz</h2>
           <p className={styles.sectionSubtitle}>
-            Ağır vasıta araçlarınızın güvenliği ve performansı için sunduğumuz profesyonel çözümlerimiz aşağıdadır. (Servisimizde motor revizyonu yapılmamaktadır).
+            Körfez ağır vasıta, frenci, lastik tamiri ve 7/24 yol yardım aramalarında öncü, hızlı ve profesyonel çözümler. (Servisimizde motor revizyonu yapılmamaktadır).
           </p>
 
           <div className={styles.servicesGrid}>
@@ -306,6 +306,44 @@ export default function Home() {
                 </div>
                 <div className={styles.serviceListItem}>
                   <span className={styles.bullet}></span> Amortisör & Rotil Değişimleri
+                </div>
+              </div>
+            </div>
+
+            {/* Card 4: Lastik Servisi & Yol Yardım */}
+            <div className={styles.serviceCard}>
+              <div className={styles.serviceIcon}>
+                <svg
+                  width="32"
+                  height="32"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <circle cx="12" cy="12" r="10" />
+                  <circle cx="12" cy="12" r="4" />
+                  <line x1="4.93" y1="4.93" x2="9.17" y2="9.17" />
+                  <line x1="14.83" y1="14.83" x2="19.07" y2="19.07" />
+                  <line x1="14.83" y1="9.17" x2="19.07" y2="4.93" />
+                  <line x1="4.93" y1="19.07" x2="9.17" y2="14.83" />
+                </svg>
+              </div>
+              <h3>Ağır Vasıta Lastik Servisi</h3>
+              <p>
+                Tır, kamyon, çekici ve dorseler için yerinde mobil lastik tamiri, lastik sökme-takma, yama ve yeni/çıkma lastik tedariği. Yol yardım araçlarımızla 7/24 lastik desteği sağlıyoruz.
+              </p>
+              <div className={styles.serviceList}>
+                <div className={styles.serviceListItem}>
+                  <span className={styles.bullet}></span> 7/24 Mobil Yol Lastik Tamiri
+                </div>
+                <div className={styles.serviceListItem}>
+                  <span className={styles.bullet}></span> Lastik Sökme, Takma & Yama
+                </div>
+                <div className={styles.serviceListItem}>
+                  <span className={styles.bullet}></span> Yeni ve Çıkma Lastik Desteği
                 </div>
               </div>
             </div>

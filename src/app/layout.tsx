@@ -12,8 +12,8 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "Ceyhan Ağır Vasıta Servisi | Kocaeli Körfez 7/24 Yol Yardım",
-  description: "Kocaeli Körfez'de 7/24 ağır vasıta yol yardım, fren sistemleri (ABS/EBS), oto elektrik, makas, şanzıman ve periyodik bakım hizmetleri sunuyoruz. Hızlı, güvenilir ve uzman kadro.",
-  keywords: "ceyhan tır servisi, kocaeli tır servisi, körfez tır servisi, kamyon tamiri, 7/24 yol yardım kocaeli, heavy vehicle repair turkey, abs ebs fren tamiri, makas tamiri, ağır vasıta oto elektrik",
+  description: "Kocaeli Körfez'de 7/24 ağır vasıta yol yardım, fren (Körfez Frenci), lastik tamiri (Körfez Lastik), oto elektrik, makas ve periyodik bakım hizmetleri. Hızlı ve uzman tır servisi.",
+  keywords: "Körfez Frenci, Körfez ağır vasıta, Körfez yol yardım, Körfez lastik, ceyhan tır servisi, kocaeli tır servisi, körfez tır lastikçi, abs ebs fren tamiri, makas tamiri, ağır vasıta oto elektrik",
   authors: [{ name: "Ceyhan CYH Grup" }],
 };
 
