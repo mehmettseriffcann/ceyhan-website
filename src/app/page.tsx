@@ -42,13 +42,10 @@ export default function Home() {
                   width="20"
                   height="20"
                   viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2.5"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
+                  fill="currentColor"
+                  style={{ marginRight: "4px" }}
                 >
-                  <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
+                  <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.513 2.262 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.504-5.714-1.464L0 24zm12.004-2.182c1.78-.001 3.518.478 5.038 1.385l.361.214 3.743-.982-.999-3.647.235-.374c.974-1.55 1.487-3.348 1.488-5.196.002-5.452-4.372-9.889-9.753-9.889-2.607.001-5.058 1.02-6.899 2.868-1.84 1.848-2.853 4.305-2.854 6.914-.002 5.454 4.373 9.892 9.756 9.892zm5.353-7.302c-.292-.146-1.729-.854-1.997-.951-.268-.098-.463-.146-.658.146-.195.293-.755.951-.926 1.146-.171.195-.341.219-.633.073-1.118-.559-1.879-1.002-2.614-2.278-.194-.336.194-.312.556-1.037.06-.12.03-.223-.015-.317-.045-.094-.463-1.117-.634-1.529-.166-.4-.361-.344-.497-.35-.128-.007-.275-.007-.423-.007s-.387.056-.59.277c-.201.223-.77.753-.77 1.838 0 1.083.785 2.13.896 2.278.11.147 1.517 2.378 3.676 3.303 1.077.463 1.69.593 2.296.503.62-.092 1.729-.707 1.972-1.391.244-.683.244-1.268.171-1.39-.073-.122-.268-.195-.56-.342z"/>
                 </svg>
                 WhatsApp Destek
               </a>
@@ -126,7 +123,7 @@ export default function Home() {
               </div>
               <div className={styles.infoText}>
                 <h4>Konumumuz</h4>
-                <p>Hamit Kaplan Cad. No:33 Körfez</p>
+                <p>Yeniyalı mah. Hamit Kaplan cad. No:33 Körfez/Kocaeli</p>
               </div>
             </a>
             <div className={styles.infoItem}>
@@ -309,40 +306,6 @@ export default function Home() {
                 </div>
                 <div className={styles.serviceListItem}>
                   <span className={styles.bullet}></span> Amortisör & Rotil Değişimleri
-                </div>
-              </div>
-            </div>
-
-            {/* Card 4: Şanzıman & Diferansiyel */}
-            <div className={styles.serviceCard}>
-              <div className={styles.serviceIcon}>
-                <svg
-                  width="32"
-                  height="32"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <circle cx="12" cy="12" r="3" />
-                  <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z" />
-                </svg>
-              </div>
-              <h3>Şanzıman & Yürüyen Aksam</h3>
-              <p>
-                Ağır vasıta araçların güç aktarım organlarında şanzıman, diferansiyel, baskı balata, şaft ve şanzıman bilyası bakımları. Güvenli vites geçişleri ve aktarım performansı için mekanik tamirler.
-              </p>
-              <div className={styles.serviceList}>
-                <div className={styles.serviceListItem}>
-                  <span className={styles.bullet}></span> Debriyaj Seti (Baskı Balata) Değişimi
-                </div>
-                <div className={styles.serviceListItem}>
-                  <span className={styles.bullet}></span> Şanzıman Yağ Seviyesi & Değişimi
-                </div>
-                <div className={styles.serviceListItem}>
-                  <span className={styles.bullet}></span> Diferansiyel Dişli & Şaft Bakımı
                 </div>
               </div>
             </div>
