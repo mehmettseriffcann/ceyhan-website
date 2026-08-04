@@ -1,8 +1,7 @@
 import { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  // Replace with custom domain if configured in the future (e.g., https://ceyhanagırvasita.com)
-  const baseUrl = "https://ceyhan-website.vercel.app";
+  const baseUrl = "https://ceyhancyhgrup.com";
 
   return [
     {
